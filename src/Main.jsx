@@ -9,6 +9,7 @@ const Main = () => {
     <div className='container' style={{backgroundColor:color}}>
         {color}
     </div>
+    
     <input type="text" placeholder='color' onChange={(e)=>setColor(e.target.value)} />
     </>
   )
